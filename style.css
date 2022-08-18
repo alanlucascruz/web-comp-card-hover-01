@@ -1,0 +1,91 @@
+* {
+  font-family: "Roboto";
+}
+
+html,
+body {
+  height: 98vh;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #020e26;
+}
+
+.card {
+  position: relative;
+  width: 356px;
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  transition: 0.3s ease;
+}
+
+.card:hover img {
+  opacity: 0.76;
+}
+
+.card:hover .card-overlay {
+  height: 200px;
+}
+
+.card-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 0;
+  padding: 0 16px;
+  background-color: rgba(0, 0, 0, 0.64);
+  overflow: hidden;
+  transition: 0.3s ease;
+}
+
+.card-overlay h6 {
+  color: #ffffff;
+  font-size: 12px;
+  margin: 16px 0;
+}
+
+.card-overlay .info {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 8px;
+}
+
+.card-overlay .price,
+.card-overlay .qtde {
+  flex: 1;
+}
+
+.card-overlay .price h6,
+.card-overlay .qtde h6 {
+  margin: 0;
+  color: #c5c5c5;
+  font-weight: 400;
+}
+
+.card-overlay .price h2,
+.card-overlay .qtde h2 {
+  margin: 4px 0 24px 0;
+  color: #ffffff;
+  font-size: 24px;
+}
+
+.card-overlay button {
+  padding: 16px 24px;
+  background-color: #14b217;
+  color: #ffffff;
+  font-weight: 500;
+  text-transform: uppercase;
+  width: 100%;
+  border: none;
+  border-radius: 32px;
+}
