@@ -88,4 +88,5 @@ body {
   width: 100%;
   border: none;
   border-radius: 32px;
+  cursor: pointer;
 }
