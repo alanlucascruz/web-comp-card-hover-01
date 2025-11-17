@@ -12,7 +12,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  background-color: #020e26;
+  background-color: #f3f3f3;
 }
 
 .card {
@@ -34,6 +34,7 @@ body {
 
 .card:hover .card-overlay {
   height: 200px;
+  border-radius: 12px;
 }
 
 .card-overlay {
