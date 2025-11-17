@@ -34,7 +34,6 @@ body {
 
 .card:hover .card-overlay {
   height: 200px;
-  border-radius: 12px;
 }
 
 .card-overlay {
@@ -47,6 +46,7 @@ body {
   background-color: rgba(0, 0, 0, 0.64);
   overflow: hidden;
   transition: 0.3s ease;
+  border-radius: 12px;
 }
 
 .card-overlay h6 {
